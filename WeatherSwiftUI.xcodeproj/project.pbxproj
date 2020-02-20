@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05D1BB123FEDF0B0075039F /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D1BB023FEDF0B0075039F /* BackSplash.swift */; };
 		C0A040B223FED7C800535A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A040B123FED7C800535A2E /* AppDelegate.swift */; };
 		C0A040B423FED7C800535A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A040B323FED7C800535A2E /* SceneDelegate.swift */; };
 		C0A040B623FED7C800535A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A040B523FED7C800535A2E /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C05D1BB023FEDF0B0075039F /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
 		C0A040AE23FED7C800535A2E /* WeatherSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A040B123FED7C800535A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A040B323FED7C800535A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C05D1BAC23FEDCD60075039F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C05D1BAD23FEDCE50075039F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C05D1BB023FEDF0B0075039F /* BackSplash.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C05D1BAE23FEDCEF0075039F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C05D1BAF23FEDD040075039F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C0A040A523FED7C800535A2E = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +87,10 @@
 		C0A040B023FED7C800535A2E /* WeatherSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C05D1BAF23FEDD040075039F /* Services */,
+				C05D1BAE23FEDCEF0075039F /* ViewModels */,
+				C05D1BAD23FEDCE50075039F /* Views */,
+				C05D1BAC23FEDCD60075039F /* Data */,
 				C0A040B123FED7C800535A2E /* AppDelegate.swift */,
 				C0A040B323FED7C800535A2E /* SceneDelegate.swift */,
 				C0A040B523FED7C800535A2E /* ContentView.swift */,
@@ -149,6 +184,7 @@
 				C0A040B223FED7C800535A2E /* AppDelegate.swift in Sources */,
 				C0A040B423FED7C800535A2E /* SceneDelegate.swift in Sources */,
 				C0A040B623FED7C800535A2E /* ContentView.swift in Sources */,
+				C05D1BB123FEDF0B0075039F /* BackSplash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
