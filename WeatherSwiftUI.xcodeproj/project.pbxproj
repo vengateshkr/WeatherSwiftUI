@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C05D1BB123FEDF0B0075039F /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D1BB023FEDF0B0075039F /* BackSplash.swift */; };
+		C05E7E4323FF1AFE007C4AB1 /* MainForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05E7E4223FF1AFE007C4AB1 /* MainForecast.swift */; };
+		C05E7E4523FF2048007C4AB1 /* WeatherApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05E7E4423FF2048007C4AB1 /* WeatherApiService.swift */; };
+		C05E7E4723FF229A007C4AB1 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05E7E4623FF229A007C4AB1 /* ForecastViewModel.swift */; };
 		C0A040B223FED7C800535A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A040B123FED7C800535A2E /* AppDelegate.swift */; };
 		C0A040B423FED7C800535A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A040B323FED7C800535A2E /* SceneDelegate.swift */; };
 		C0A040B623FED7C800535A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A040B523FED7C800535A2E /* ContentView.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		C05D1BB023FEDF0B0075039F /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
+		C05E7E4223FF1AFE007C4AB1 /* MainForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainForecast.swift; sourceTree = "<group>"; };
+		C05E7E4423FF2048007C4AB1 /* WeatherApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApiService.swift; sourceTree = "<group>"; };
+		C05E7E4623FF229A007C4AB1 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 		C0A040AE23FED7C800535A2E /* WeatherSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A040B123FED7C800535A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A040B323FED7C800535A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,11 +45,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C05D1BAC23FEDCD60075039F /* Data */ = {
+		C05D1BAC23FEDCD60075039F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C05E7E4223FF1AFE007C4AB1 /* MainForecast.swift */,
 			);
-			path = Data;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C05D1BAD23FEDCE50075039F /* Views */ = {
@@ -57,6 +64,7 @@
 		C05D1BAE23FEDCEF0075039F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C05E7E4623FF229A007C4AB1 /* ForecastViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -64,6 +72,7 @@
 		C05D1BAF23FEDD040075039F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C05E7E4423FF2048007C4AB1 /* WeatherApiService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -90,7 +99,7 @@
 				C05D1BAF23FEDD040075039F /* Services */,
 				C05D1BAE23FEDCEF0075039F /* ViewModels */,
 				C05D1BAD23FEDCE50075039F /* Views */,
-				C05D1BAC23FEDCD60075039F /* Data */,
+				C05D1BAC23FEDCD60075039F /* Model */,
 				C0A040B123FED7C800535A2E /* AppDelegate.swift */,
 				C0A040B323FED7C800535A2E /* SceneDelegate.swift */,
 				C0A040B523FED7C800535A2E /* ContentView.swift */,
@@ -182,7 +191,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A040B223FED7C800535A2E /* AppDelegate.swift in Sources */,
+				C05E7E4523FF2048007C4AB1 /* WeatherApiService.swift in Sources */,
 				C0A040B423FED7C800535A2E /* SceneDelegate.swift in Sources */,
+				C05E7E4723FF229A007C4AB1 /* ForecastViewModel.swift in Sources */,
+				C05E7E4323FF1AFE007C4AB1 /* MainForecast.swift in Sources */,
 				C0A040B623FED7C800535A2E /* ContentView.swift in Sources */,
 				C05D1BB123FEDF0B0075039F /* BackSplash.swift in Sources */,
 			);
