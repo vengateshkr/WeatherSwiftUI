@@ -13,7 +13,9 @@ class WeatherApiService {
     
     func getWeatherResponse(city : String, completion: @escaping (MainForecastResponse?) -> ()) {
         
-        guard let url = URL(string:"https://api.openweathermap.org/data/2.5/forecast/daily?q=\(city)&appid=ac8e30ad408fc9d88681826daaeb7ea0&units=imperial") else {
+        let appID = "ed60fcfbd110ee65c7150605ea8aceea"
+        
+        guard let url = URL(string:"https://api.openweathermap.org/data/2.5/forecast/daily?q=\(city)&appid=\(appID)&units=imperial") else {
             completion(nil)
             return
         }
@@ -29,6 +31,6 @@ class WeatherApiService {
             }
             
             completion(weatherResp)
-        }
+        }.resume()
     }
 }

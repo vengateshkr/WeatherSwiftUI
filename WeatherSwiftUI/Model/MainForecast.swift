@@ -8,50 +8,54 @@
 
 import Foundation
 
+// MARK: - MainForecastResponse
 struct MainForecastResponse: Codable {
-    var city : City?
-    var cod : String?
-    var message : Double?
-    var cnt : Int?
-    var list : [MainForecastParams]?
+    let city: City
+    let cod: String
+    let message: Double
+    let cnt: Int
+    let list: [List]
 }
 
-struct MainForecastParams : Codable {
-    var dt : Int?
-    var temp : Temp?
-    var pressure : Double?
-    var weather : [Weather]?
-    var speed : Int?
-    var deg : Int?
-    var clouds : Int?
+// MARK: - City
+struct City: Codable {
+    let id: Int
+    let name: String
+    let coord: Coord
+    let country: String
+    let population, timezone: Int
 }
 
-struct Weather : Codable {
-    var id : Int?
-    var main : String?
-    var description : String?
-    var icons : String?
-}
-
-struct City : Codable {
-    var id: Int?
-    var name : String?
-    var coord : Coord?
-    var country : String?
-    var population : Int?
-    var timeZone : Int?
-}
-
+// MARK: - Coord
 struct Coord: Codable {
-    var lat : Double?
-    var lon : Double?
+    let lon, lat: Double
 }
 
-struct Temp : Codable {
-    var day : Double?
-    var min : Double?
-    var max : Double?
-    var night : Double?
-    var eve : Double?
-    var morn : Double?
+// MARK: - List
+struct List: Codable {
+    let dt: Int
+    let temp: Temp
+    let pressure: Double
+    let humidity: Int
+    let weather: [Weather]
+    let speed: Double
+    let deg, clouds: Int
+}
+
+// MARK: - Temp
+struct Temp: Codable {
+    let day, min, max, night: Double
+    let eve, morn: Double
+}
+
+// MARK: - Weather
+struct Weather: Codable {
+    let id: Int
+    let main, weatherDescription, icon: String
+    
+    enum CodingKeys: String, CodingKey {
+        case id, main
+        case weatherDescription = "description"
+        case icon
+    }
 }

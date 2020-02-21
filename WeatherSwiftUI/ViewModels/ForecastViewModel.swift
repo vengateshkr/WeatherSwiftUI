@@ -9,9 +9,9 @@
 import Foundation
 
 class ForecastViewModel : ObservableObject {
-    var wetherService = WeatherApiService()
+    var weatherService = WeatherApiService()
     var cityName : String = "Chennai"
-    @Published var weatherForecastResp = MainForecastResponse()
+    @Published var weatherForecastResp : MainForecastResponse!
     
     func searchCity() {
         if let city = self.cityName.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) {
@@ -20,10 +20,11 @@ class ForecastViewModel : ObservableObject {
     }
     
     func fetchWeather(by city : String) {
-        self.wetherService.getWeatherResponse(city: city) { (data) in
+        self.weatherService.getWeatherResponse(city: city) { (data) in
             if let data = data {
                 DispatchQueue.main.async {
                     self.weatherForecastResp = data
+                    print(data)
                 }
             }
         }
