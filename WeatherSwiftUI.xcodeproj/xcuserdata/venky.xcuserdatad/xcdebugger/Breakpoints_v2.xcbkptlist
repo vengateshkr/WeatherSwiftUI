@@ -7,353 +7,125 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "61316C7B-06E0-4A83-88E9-23D35D43EEBB"
+            uuid = "DFF0EA87-F497-46A8-9A75-44E30AB9EDAF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
+            filePath = "WeatherSwiftUI/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "fetchWeather(by:)"
-            landmarkType = "7">
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "734894E3-FDA3-4693-9010-5591AD7C912E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherSwiftUI/Views/BottomScrollForecast.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "BottomScrollForecast"
+            landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "61316C7B-06E0-4A83-88E9-23D35D43EEBB - 8345e7c12dc56416"
+                  uuid = "734894E3-FDA3-4693-9010-5591AD7C912E - c1a4c0f6191546d9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WeatherSwiftUI.ForecastViewModel.fetchWeather(by: Swift.String) -&gt; ()"
+                  symbolName = "WeatherSwiftUI.BottomScrollForecast.icon.getter : Swift.String"
                   moduleName = "WeatherSwiftUI"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
+                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/Views/BottomScrollForecast.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "37">
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "166">
                </Location>
                <Location
-                  uuid = "61316C7B-06E0-4A83-88E9-23D35D43EEBB - 23d21f0e5eff9488"
+                  uuid = "734894E3-FDA3-4693-9010-5591AD7C912E - 26d5e7d2967db6ad"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;WeatherSwiftUI.MainForecastResponse&gt;) -&gt; () in WeatherSwiftUI.ForecastViewModel.fetchWeather(by: Swift.String) -&gt; ()"
+                  symbolName = "WeatherSwiftUI.BottomScrollForecast.icon.setter : Swift.String"
                   moduleName = "WeatherSwiftUI"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
+                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/Views/BottomScrollForecast.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "202">
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "215">
+               </Location>
+               <Location
+                  uuid = "734894E3-FDA3-4693-9010-5591AD7C912E - 89cd0ee57059adc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherSwiftUI.BottomScrollForecast.icon.modify : Swift.String"
+                  moduleName = "WeatherSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/Views/BottomScrollForecast.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "734894E3-FDA3-4693-9010-5591AD7C912E - 21ece5bd2728bff3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherSwiftUI.BottomScrollForecast.icon.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WeatherSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/Views/BottomScrollForecast.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "734894E3-FDA3-4693-9010-5591AD7C912E - 6863a19cbf277a65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherSwiftUI.BottomScrollForecast.$icon.getter : SwiftUI.Binding&lt;Swift.String&gt;"
+                  moduleName = "WeatherSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/Views/BottomScrollForecast.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "197">
+               </Location>
+               <Location
+                  uuid = "734894E3-FDA3-4693-9010-5591AD7C912E - 8b0847e606f08818"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherSwiftUI.BottomScrollForecast.init(forecastData: WeatherSwiftUI.List, icon: Swift.String) -&gt; WeatherSwiftUI.BottomScrollForecast"
+                  moduleName = "WeatherSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/Views/BottomScrollForecast.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "155">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "336940DD-93AC-42FE-8D36-4C98CE8C731B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "fetchWeather(by:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7B5E81D6-4E45-4B4E-9DAA-7E4FF2AC8C4F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "fetchWeather(by:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7B5E81D6-4E45-4B4E-9DAA-7E4FF2AC8C4F - 23d21f0e5eff9488"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;WeatherSwiftUI.MainForecastResponse&gt;) -&gt; () in WeatherSwiftUI.ForecastViewModel.fetchWeather(by: Swift.String) -&gt; ()"
-                  moduleName = "WeatherSwiftUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "324">
-               </Location>
-               <Location
-                  uuid = "7B5E81D6-4E45-4B4E-9DAA-7E4FF2AC8C4F - 77b7efcb68dcacc1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;WeatherSwiftUI.MainForecastResponse&gt;) -&gt; () in WeatherSwiftUI.ForecastViewModel.fetchWeather(by: Swift.String) -&gt; ()"
-                  moduleName = "WeatherSwiftUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Venkatesh/Desktop/WeatherSwiftUI/WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "411">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "07A89B22-434C-4CFE-A698-042E2270B4AD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "fetchWeather(by:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AD56044E-3BA6-4A54-BD52-B9DF9C87BD8A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "fetchWeather(by:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "881411B7-8ABE-4310-95AF-7A6D15B60CD5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/ViewModels/ForecastViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "fetchWeather(by:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "571D95EE-6FBA-40E8-87F1-E2CEBB618683"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DB89F2CB-FB0D-49F7-9B6E-1E0565C11E27"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "605598E1-AE70-4B4B-836F-6DABE81A1A50"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B32CF448-8903-40B3-8757-43127848FA8F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "70833766-A8EA-4AC2-BC56-699B6A11EE2C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F1998A7D-D68B-4A20-9885-5DC00BDF983D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "22AD633A-5DBC-4FE9-887A-9A64D223AAA3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "678423A5-5D52-4D5D-8496-A9CDCD874084"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A1FC6F36-E092-40CF-8891-085FCF998E5B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CF9CA9B9-13D3-4EC2-8C77-D58C769E01F5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "987FC666-6527-4637-950B-A1F7DEDC45B8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E7BA0576-4A6B-45C4-A6C1-4C07EB211651"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherSwiftUI/Services/WeatherApiService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "getWeatherResponse(city:completion:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

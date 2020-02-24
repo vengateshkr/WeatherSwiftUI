@@ -19,9 +19,31 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             BackSplash()
-            
-            TextField("Enter a city name", text: self.$forecastViewModel.cityName) {
-                self.forecastViewModel.searchCity()
+            VStack{
+                TopView(forecastViewModel: self.forecastViewModel,showTextField: false)
+                MiddleView(vm: self.forecastViewModel)
+                VStack(alignment: .center, spacing: 8) {
+                    Image(systemName: Helper().showWeatherIcon(item: self.forecastViewModel.weatherForecastResp))
+                        .resizable()
+                        .frame(width: 200, height: 200, alignment: .center)
+                        .scaledToFit()
+                        .foregroundColor(.white)
+                    TemperatureView(vm: self.forecastViewModel)
+                    
+                    Text("7-Day Weather Forecast")
+                        .foregroundColor(Color.white)
+                        .font(.system(size: 20))
+                        .bold()
+                        .padding(.all, 20)
+                    
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack {
+                            ForEach(self.forecastViewModel.getForecastList(),id: \.dt) { forecast in
+                                BottomScrollForecast(forecastData : forecast)
+                            }
+                        }
+                    }
+                }
             }
         }
     }
